@@ -22,7 +22,7 @@ router.post('/user', function(req, res, next) {
     var name = req.body.name;
     var domain = req.body.domain;
     var age = req.body.age;
-
+    // test
     // res.send(name+age+'@'+domain);
     res.send("Nope");
     res.end;
